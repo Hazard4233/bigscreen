@@ -1,6 +1,6 @@
 <template>
     <div class="picker-input relative">
-        <input type="text" class="bg-transparent border-r0g230b151 rounded text-r205g234b255 pl-2 placeholder-r0g230b151 placeholder-opacity-70" placeholder="请选择时间范围" 
+        <input type="text" class="bg-transparent border-r0g230b151 rounded text-r205g234b255 pl-2 placeholder-r0g230b151 placeholder-opacity-70" :placeholder="ph_value" 
             style="border-width:1px;height:2.0833vw;width:9.375vw;">
         <div class="absolute top-1/2 transform -translate-y-1/2" style="right:0.55625vw;">
             <img class="cursor-pointer" src="../assets/img/picker_icon.png" alt="" style="width:1.197916vw;height:1.197916vw;">
@@ -10,6 +10,7 @@
 <script>
 export default {
     name: 'PickerInput',
+    props: ['ph_value'],
     data() {
         return {
 

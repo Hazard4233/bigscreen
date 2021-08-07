@@ -5,28 +5,28 @@
                 <div class="flex flex-row items-center cursor-pointer">
                     <div class="bg-r205g234b255" style="width: 3px; height: 1.63934vw;"></div>
                     <div class="text-r205g234b255 px-2 ml-1 flex flex-row items-center justify-center" 
-                        style="height: 1.63934vw; background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(25, 71, 107)); font-size: 0.867888vw;">角色管理</div>
+                        style="height: 1.63934vw; background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(25, 71, 107)); font-size: 0.867888vw;">Role Manage</div>
                 </div>
             </router-link>
             <router-link to="/page7/part2">
                 <div class="flex flex-row items-center cursor-pointer" style="margin-left:2.89296vw;">
                     <div class="" style="width: 3px; height: 1.63934vw;background-color: #f7ce43"></div>
                     <div class="text-r205g234b255 px-2 ml-1 flex flex-row items-center justify-center" 
-                        style="height: 1.63934vw; background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(187, 124, 31)); font-size: 0.867888vw;">用户管理</div>
+                        style="height: 1.63934vw; background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(187, 124, 31)); font-size: 0.867888vw;">User Manage</div>
                 </div>
             </router-link>
             <router-link to="/page7/part3">
                 <div class="flex flex-row items-center cursor-pointer" style="margin-left:2.89296vw;">
                     <div class="bg-r205g234b255" style="width: 3px; height: 1.63934vw;"></div>
                     <div class="text-r205g234b255 px-2 ml-1 flex flex-row items-center justify-center" 
-                        style="height: 1.63934vw; background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(25, 71, 107)); font-size: 0.867888vw;">数据字典</div>
+                        style="height: 1.63934vw; background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(25, 71, 107)); font-size: 0.867888vw;">Data Dictionary</div>
                 </div>
             </router-link>
             <router-link to="/page7/part4">
                 <div class="flex flex-row items-center cursor-pointer" style="margin-left:2.89296vw;">
                     <div class="bg-r205g234b255" style="width: 3px; height: 1.63934vw;"></div>
                     <div class="text-r205g234b255 px-2 ml-1 flex flex-row items-center justify-center" 
-                        style="height: 1.63934vw; background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(25, 71, 107)); font-size: 0.867888vw;">操作日志</div>
+                        style="height: 1.63934vw; background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(25, 71, 107)); font-size: 0.867888vw;">Operation Log</div>
                 </div>
             </router-link>
         </div>
@@ -36,24 +36,24 @@
                 <div class="flex flex-row items-center" style="margin-left:1.54291vw;">
                     <div class="bg-r205g234b255" style="width: 3px;height: 1.6393442vw;"></div>
                     <div class="text-r205g234b255 px-2 ml-1 flex flex-row items-center justify-center"
-                        style="height:1.6393442vw; background-image: linear-gradient(to top right, #19476b, #030a19);font-size:0.8678881vw;">账号管理</div>
+                        style="height:1.6393442vw; background-image: linear-gradient(to top right, #19476b, #030a19);font-size:0.8678881vw;">Account Manage</div>
                 </div>
-                <BarBlueBtn text="添加" ml_val="11vw"/>
-                <BarGreenBtn text="导出" ml_val="2.6041vw" w_val="7.9166vw" h_val="2.65625vw"/>
-                <ExpandSearchInput ml_val="2.6041vw" h_val="2vw" w_val="10.41666vw" place_holder="请输入您想搜索的内容"/>
+                <BarBlueBtn text="Add" ml_val="11vw"/>
+                <BarGreenBtn text="Print" ml_val="2.6041vw" w_val="7.9166vw" h_val="2.65625vw"/>
+                <ExpandSearchInput ml_val="2.6041vw" h_val="2vw" w_val="10.41666vw" place_holder="Please enter here"/>
             </div>
             <div class="yard_tb">
                 <table class="w-full">
                     <thead>
                         <tr>
-                            <td class="text-white text-center" style="padding:0.83333vw;">序号</td>
-                            <td class="text-white text-center" style="padding:0.83333vw;">账号</td>
-                            <td class="text-white text-center" style="padding:0.83333vw;">员工姓名</td>
-                            <td class="text-white text-center" style="padding:0.83333vw;">部门</td>
-                            <td class="text-white text-center" style="padding:0.83333vw;">角色</td>
-                            <td class="text-white text-center" style="padding:0.83333vw;">手机号码</td>
-                            <td class="text-white text-center" style="padding:0.83333vw;">状态</td>
-                            <td class="text-white text-center" style="padding:0.83333vw;">操作</td>
+                            <td class="text-white text-center" style="padding:0.83333vw;">No</td>
+                            <td class="text-white text-center" style="padding:0.83333vw;">ID</td>
+                            <td class="text-white text-center" style="padding:0.83333vw;">Name</td>
+                            <td class="text-white text-center" style="padding:0.83333vw;">Department</td>
+                            <td class="text-white text-center" style="padding:0.83333vw;">Role</td>
+                            <td class="text-white text-center" style="padding:0.83333vw;">Mobile</td>
+                            <td class="text-white text-center" style="padding:0.83333vw;">Status</td>
+                            <td class="text-white text-center" style="padding:0.83333vw;">Action</td>
                         </tr>
                     </thead>
                     <tbody>
@@ -67,15 +67,15 @@
                             <td class=" text-r205g234b255" style="padding:1.25vw;">
                                 <div class=" flex flex-row items-center justify-center">
                                     <div class="rounded-full" style="width:0.4167vw;height:0.416vw;" 
-                                        :class="{'bg-r0g230b151': item.status === '正常', 'bg-red-600': item.status !== '正常'}"></div>
+                                        :class="{'bg-r0g230b151': item.status === 'Online', 'bg-red-600': item.status !== 'Online'}"></div>
                                     <div class="text-r205g234b255" style="margin-left: 0.7291vw;">{{item.status}}</div>
                                 </div>
                             </td>
                             <td class="" style="padding:1.25vw;">
                                 <div class="flex flex-row items-center cursor-pointer">
-                                    <div class=" text-r0g230b151 mx-auto underline">编辑</div>
-                                    <div class="text-red-500 mx-auto underline">删除</div>
-                                    <div class=" text-r77g163b207 underline mx-auto">启用</div>
+                                    <div class=" text-r0g230b151 mx-auto underline">Edit</div>
+                                    <div class="text-red-500 mx-auto underline">Delete</div>
+                                    <div class=" text-r77g163b207 underline mx-auto">Enable</div>
                                 </div>
                             </td>
                         </tr>
@@ -86,7 +86,7 @@
 
         <div class="w-full my-auto">
             <div class="pagination flex flex-row items-center justify-center" style="font-size:0.83333vw;">
-                <div class=" text-r205g234b255">共{{tb_data.length}}条</div>
+                <div class=" text-r205g234b255">Total {{tb_data.length}}</div>
                 <div class="pagination_item" style="margin-left:0.88541vw;">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-r205g234b255" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
@@ -114,12 +114,12 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                     </svg>
                 </div>
-                <div class=" text-r205g234b255" style="margin-left:0.88541vw;">跳转到</div>
+                <div class=" text-r205g234b255" style="margin-left:0.88541vw;">To</div>
                 <div class="pagination_item px-1" style="margin-left:0.88541vw;">
                     <input type="text" class="w-full bg-transparent border-transparent text-r205g234b255 pl-2">
                 </div>
-                <div class=" text-r205g234b255" style="margin-left:0.44541vw;">页</div>
-                <BarGreenBtn text="跳转" ml_val="1.6854vw" w_val="5.41666vw" h_val="1.9791vw" />
+                <div class=" text-r205g234b255" style="margin-left:0.44541vw;">Page</div>
+                <BarGreenBtn text="OK" ml_val="1.6854vw" w_val="5.41666vw" h_val="1.9791vw" />
             </div>
         </div>
     </div>
@@ -145,11 +145,11 @@ export default {
         for (let index = 0; index < 50; index++) {
             var obj_var = {}
             obj_var.account = Math.round(Math.random() * 100000)
-            obj_var.name = "李海生"
-            obj_var.department = "茶农部"
-            obj_var.role = '管理员'
+            obj_var.name = `Kym Jack`
+            obj_var.department = "Account"
+            obj_var.role = 'Admin'
             obj_var.phone = "13541545975"
-            obj_var.status = ["停用", "正常"][Math.round(Math.random())]
+            obj_var.status = ["Offline", "Online"][Math.round(Math.random())]
             this.tb_data.push(obj_var)
         }
     },

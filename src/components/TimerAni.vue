@@ -2,9 +2,9 @@
     <div class="flex flex-row items-center overflow-hidden" :style="{'height': String(h_val) + unit}">
         <div v-for="(item, index) in digit_list" :key="index" class="h-full flex flex-row items-center">
             <DigitItem :digit_val="item" :w_val="w_val" :h_val="h_val" :unit="unit"></DigitItem>
-            <div v-if="index === 3" class="text-r205g234b255 flex justify-center items-center" :style="{'width': String(w_val) + unit, 'height': String(h_val) + unit}" style="margin-left:3px;margin-right:3px;">年</div>
-            <div v-if="index === 5" class="text-r205g234b255 flex justify-center items-center" :style="{'width': String(w_val) + unit, 'height': String(h_val) + unit}" style="margin-left:3px;margin-right:3px;">月</div>
-            <div v-if="index === 7" class="text-r205g234b255 flex justify-center items-center" :style="{'width': String(w_val) + unit, 'height': String(h_val) + unit}" style="margin-left:3px;margin-right:8px;">日</div>
+            <div v-if="index === 3" class="text-r205g234b255 flex justify-center items-center" :style="{'width': String(w_val) + unit, 'height': String(h_val) + unit}" style="margin-left:3px;margin-right:3px;">-</div>
+            <div v-if="index === 5" class="text-r205g234b255 flex justify-center items-center" :style="{'width': String(w_val) + unit, 'height': String(h_val) + unit}" style="margin-left:3px;margin-right:3px;">-</div>
+            <div v-if="index === 7" class="text-r205g234b255 flex justify-center items-center" :style="{'width': String(w_val) + unit, 'height': String(h_val) + unit}" style="margin-left:3px;margin-right:8px;"> </div>
             <div v-if="index === 9" class="text-r205g234b255 flex justify-center items-center" :style="{'width': String(w_val) + unit, 'height': String(h_val) + unit}" style="margin-left:3px;margin-right:3px;">:</div>
             <div v-if="index === 11" class="text-r205g234b255 flex justify-center items-center" :style="{'width': String(w_val) + unit, 'height': String(h_val) + unit}" style="margin-left:3px;margin-right:3px;">:</div>
         </div>

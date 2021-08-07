@@ -1,7 +1,7 @@
 <template>
     <div class="page4 relative flex flex-col" :style="'--spin_color:' + spin_color + ';' + '--spin_rate:' + spin_rate + ';'">
         <div class=" absolute text-white font-semibold" 
-            style="font-size:1.35004vw;left:10.559305vw;top:2.20009vw;">无人值守场站平台</div>
+            style="font-size:1.35004vw;left:10.559305vw;top:2.20009vw;">Automatic Station Platform</div>
         <div class=" absolute text-r205g234b255"
             style="font-size:0.72324vw;top:5.9305689vw;left:10.8343298vw;">
             <TimerAni :w_val="0.46875" :h_val="1.041666" unit="vw" style="font-size:0.733333vw;"></TimerAni>
@@ -72,7 +72,7 @@
                     <img class="rounded-full w-full h-full" src="https://images-eu.ssl-images-amazon.com/images/I/811bIz9%2BRvL.png"
                      alt="">
                 </div>
-                <div class=" text-r205g234b255 cursor-pointer" style="margin-left: 0.96432vw;font-size:0.771456vw;">管理员</div>
+                <div class=" text-r205g234b255 cursor-pointer" style="margin-left: 0.96432vw;font-size:0.771456vw;">Admin</div>
             </div>
         </div>
         
@@ -107,10 +107,9 @@
 
                         <div class="absolute top-0 left-0 flex flex-col text-center w-full h-full">
                             <div class="my-auto">
-                                <img :width="15 * px_rate" class="mx-auto"
-                                    src="../assets/img/page4_nav_icon_1.png" alt="">
+                                <img :width="15 * px_rate" class="mx-auto" src="../assets/img/page4_nav_icon_1.png" alt="">
                                 <div v-if="active_nav === 0" style="margin-top:0.3125vw;">
-                                    <div class="text-white text-center font-bold mx-auto" style="writing-mode: tb-rl;font-size:0.9375vw;">首页</div>
+                                    <div class="text-white text-center font-bold mx-auto whitespace-pre-wrap" style="font-size:0.6375vw;">Home</div>
                                 </div>
                             </div>
                         </div>
@@ -142,10 +141,9 @@
 
                         <div class="absolute top-0 left-0 flex flex-col text-center w-full h-full">
                             <div class="my-auto">
-                                <img :width="15 * px_rate" class="mx-auto"
-                                    src="../assets/img/page4_nav_icon_2.png" alt="">
+                                <img :width="15 * px_rate" class="mx-auto" src="../assets/img/page4_nav_icon_2.png" alt="">
                                 <div v-if="active_nav === 1" style="margin-top:0.3125vw;">
-                                    <div class="text-white text-center font-bold mx-auto" style="writing-mode: tb-rl;font-size:0.9375vw;">场站管理</div>
+                                    <div class="text-white text-center font-bold mx-auto" style="font-size:0.6375vw;">Yard Manage</div>
                                 </div>
                             </div>
                         </div>
@@ -180,10 +178,9 @@
                         
                         <div class="absolute top-0 left-0 flex flex-col text-center w-full h-full">
                             <div class="my-auto">
-                                <img :width="15 * px_rate" class="mx-auto"
-                                    src="../assets/img/page4_nav_icon_3.png" alt="">
+                                <img :width="15 * px_rate" class="mx-auto" src="../assets/img/page4_nav_icon_3.png" alt="">
                                 <div v-if="active_nav === 2" style="margin-top:0.3125vw;">
-                                    <div class="text-white text-sm text-center font-bold mx-auto" style="writing-mode: tb-rl;font-size:0.9375vw;">报警管理</div>
+                                    <div class="text-white text-sm text-center font-bold mx-auto" style="font-size:0.6375vw;">Alarm Manage</div>
                                 </div>
                             </div>
                         </div>
@@ -216,10 +213,9 @@
                         
                         <div class="absolute top-0 left-0 flex flex-col text-center w-full h-full">
                             <div class="my-auto">
-                                <img :width="15 * px_rate" class="mx-auto"
-                                    src="../assets/img/page4_nav_icon_4.png" alt="">
+                                <img :width="15 * px_rate" class="mx-auto" src="../assets/img/page4_nav_icon_4.png" alt="">
                                 <div v-if="active_nav === 3" style="margin-top:0.3125vw;">
-                                    <div class="text-white text-sm text-center font-bold mx-auto" style="writing-mode: tb-rl;font-size:0.9375vw;">系统设定</div>
+                                    <div class="text-white text-sm text-center font-bold mx-auto" style="font-size:0.6375vw;">System Setting</div>
                                 </div>
                             </div>
                         </div>

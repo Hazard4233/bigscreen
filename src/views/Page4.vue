@@ -27,7 +27,7 @@
                                 <img class="w-full h-full" src="../assets/img/page4_disk_icon.png" alt="">
                             </div>
                         </div>
-                        <div class="text-r205g234b255 mt-4 text-center" style="font-size:0.675024vw">设备总数/台</div>
+                        <div class="text-r205g234b255 mt-4 text-center" style="font-size:0.675024vw">Total Equipments</div>
                     </div>
 
                     <div class="flex flex-col">
@@ -51,7 +51,7 @@
                                 <img class="w-full h-full" src="../assets/img/page4_user_yellow_icon.png" alt="">
                             </div>
                         </div>
-                        <div class="text-r205g234b255 mt-4 text-center" style="font-size:0.675024vw">运维人员/个</div>
+                        <div class="text-r205g234b255 mt-4 text-center" style="font-size:0.675024vw">Members</div>
                     </div>
 
                     <div class="flex flex-col">
@@ -75,7 +75,7 @@
                                 <img class="w-full h-full" src="../assets/img/page4_alert_red_icon.png" alt="">
                             </div>
                         </div>
-                        <div class="text-r205g234b255 mt-4 text-center" style="font-size:0.675024vw">今日报警/条</div>
+                        <div class="text-r205g234b255 mt-4 text-center" style="font-size:0.675024vw">Today Alarm</div>
                     </div>
 
                     <div class="flex flex-col">
@@ -99,7 +99,7 @@
                                 <img class="w-full h-full" src="../assets/img/page4_note_icon.png" alt="">
                             </div>
                         </div>
-                        <div class="text-r205g234b255 mt-4 text-center" style="font-size:0.675024vw">工单/条</div>
+                        <div class="text-r205g234b255 mt-4 text-center" style="font-size:0.675024vw">Work Order</div>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                 <div class="flex flex-row items-center" style="margin-top:1.54291vw;margin-left:1.54291vw;">
                     <div class="bg-r205g234b255" style="width:0.15625vw;height: 1.6393442vw;"></div>
                     <div class="text-r205g234b255 px-2 ml-1 flex flex-row items-center justify-center"
-                        style="height:1.6393442vw; background-image: linear-gradient(to top right, #19476b, #030a19);font-size:0.8678881vw;">今日报警占比</div>
+                        style="height:1.6393442vw; background-image: linear-gradient(to top right, #19476b, #030a19);font-size:0.8678881vw;">Proportion of Alarms Today</div>
                 </div>
                 <div id="pie_chart"></div>
             </div>
@@ -117,7 +117,7 @@
                 <div class="flex flex-row items-center" style="margin-top:1.54291vw;margin-left:1.54291vw;">
                     <div class="bg-r205g234b255" style="width:0.15625vw;height: 1.6393442vw;"></div>
                     <div class="text-r205g234b255 px-2 ml-1 flex flex-row items-center justify-center"
-                        style="height:1.6393442vw; background-image: linear-gradient(to top right, #19476b, #030a19);font-size:0.8678881vw;">设备数量</div>
+                        style="height:1.6393442vw; background-image: linear-gradient(to top right, #19476b, #030a19);font-size:0.8678881vw;">Equipment Quantity</div>
                 </div>
                 <div class="flex flex-col w-11/12 h-full py-7 mx-auto">
                     <div v-for="(item, index) in equip_tb" class="mt-auto mb-auto" :key="index">
@@ -134,13 +134,13 @@
                 <div class="flex flex-row items-center" style="margin-top:1.54291vw;margin-left:1.54291vw;">
                     <div class="bg-r205g234b255" style="width:0.15625vw;height: 1.6393442vw;"></div>
                     <div class="text-r205g234b255 px-2 ml-1 flex flex-row items-center justify-center"
-                        style="height:1.6393442vw; background-image: linear-gradient(to top right, #19476b, #030a19);font-size:0.8678881vw;">近期报警统计</div>
+                        style="height:1.6393442vw; background-image: linear-gradient(to top right, #19476b, #030a19);font-size:0.8678881vw;">Recent Alarm Statistics</div>
                 </div>
                 <div id="bar_chart"></div>
                 <div class="absolute flex flex-row items-center cursor-pointer" style="top:10%;right:7%">
-                    <div class=" text-r77g163b207 underline" style="font-size:0.771456vw" @click="event => clickYMD(event)">年</div>
-                    <div class="text-r77g163b207 underline mx-10" style="font-size:0.771456vw" @click="event => clickYMD(event)">月</div>
-                    <div class=" text-r77g163b207 underline " style="font-size:0.771456vw" @click="event => clickYMD(event)">日</div>
+                    <div class=" text-r77g163b207 underline" style="font-size:0.771456vw" @click="event => clickYMD(event)">Year</div>
+                    <div class="text-r77g163b207 underline mx-10" style="font-size:0.771456vw" @click="event => clickYMD(event)">Month</div>
+                    <div class=" text-r77g163b207 underline " style="font-size:0.771456vw" @click="event => clickYMD(event)">Day</div>
                 </div>
             </div>
 
@@ -148,16 +148,16 @@
                 <div class="flex flex-row items-center" style="margin-top:1.54291vw;margin-left:1.54291vw;">
                     <div class="bg-r205g234b255" style="width:0.15625vw;height: 1.6393442vw;"></div>
                     <div class="text-r205g234b255 px-2 ml-1 flex flex-row items-center justify-center"
-                        style="height:1.6393442vw; background-image: linear-gradient(to top right, #19476b, #030a19);font-size:0.8678881vw;">实时报警/事件列表</div>
+                        style="height:1.6393442vw; background-image: linear-gradient(to top right, #19476b, #030a19);font-size:0.8678881vw;">Realtime Alarm</div>
                 </div>
                 <div class="alarm_tb w-10/12 mx-auto mb-10 mt-auto">
                     <table class="w-full h-full">
                         <thead>
                             <tr>
-                                <td class="text-white text-center" style="font-size: 0.819672vw;">类型</td>
-                                <td class="text-white text-center" style="font-size: 0.819672vw;">事件</td>
-                                <td class="text-white text-center" style="font-size: 0.819672vw;">时间</td>
-                                <td class="text-white text-center" style="font-size: 0.819672vw;">处理</td>
+                                <td class="text-white text-center" style="font-size: 0.819672vw;">Type</td>
+                                <td class="text-white text-center" style="font-size: 0.819672vw;">Event</td>
+                                <td class="text-white text-center" style="font-size: 0.819672vw;">Time</td>
+                                <td class="text-white text-center" style="font-size: 0.819672vw;">Action</td>
                             </tr>
                         </thead>
                         <tbody>
@@ -165,7 +165,7 @@
                                 <td class="text-r205g234b255 text-center" style="font-size: 0.819672vw;">{{item.type}}</td>
                                 <td class="text-r205g234b255 text-center" style="font-size: 0.819672vw;">{{item.event}}</td>
                                 <td class="text-r205g234b255 text-center" style="font-size: 0.819672vw;">{{item.time}}</td>
-                                <td class="text-r0g230b151 text-center" style="font-size: 0.819672vw;">{{item.action}}</td>
+                                <td class="text-r0g230b151 text-center underline" style="font-size: 0.819672vw;">{{item.action}}</td>
                             </tr>
                         </tbody>
                     </table>
@@ -181,7 +181,6 @@
     </div>
 </template>
 <script>
-// import Layout from '../components/Layout.vue'
 import CircleCut from '../components/CircleCut.vue'
 export default {
     data() {
@@ -193,48 +192,48 @@ export default {
                     value: '23 / 25'
                 },
                 {
-                    title: '视频源',
+                    title: 'Video source',
                     value: '44 / 44'
                 },
                 {
-                    title: '呼叫终端',
+                    title: 'Call Terminal',
                     value: '120 / 125'
                 },
                 {
-                    title: '声光终端',
+                    title: 'Sound and Light',
                     value: '100 / 123'
                 }
             ],
             alarm_tb: [
                 {
-                    type: '汽油车占位',
-                    event: '粤BY7886',
+                    type: 'Gasoline Car',
+                    event: 'BY7886',
                     time: '2021.05.07 12:15:21',
-                    action: '查看'
+                    action: 'Check'
                 },
                 {
-                    type: '汽油车占位',
-                    event: '粤BY7886',
+                    type: 'Gasoline Car',
+                    event: 'BY7886',
                     time: '2021.05.07 12:15:21',
-                    action: '查看'
+                    action: 'Check'
                 },
                 {
-                    type: '汽油车占位',
-                    event: '粤BY7886',
+                    type: 'Gasoline Car',
+                    event: 'BY7886',
                     time: '2021.05.07 12:15:21',
-                    action: '查看'
+                    action: 'Check'
                 },
                 {
-                    type: '汽油车占位',
-                    event: '粤BY7886',
+                    type: 'Gasoline Car',
+                    event: 'BY7886',
                     time: '2021.05.07 12:15:21',
-                    action: '查看'
+                    action: 'Check'
                 },
                 {
-                    type: '汽油车占位',
-                    event: '粤BY7886',
+                    type: 'Gasoline Car',
+                    event: 'BY7886',
                     time: '2021.05.07 12:15:21',
-                    action: '查看'
+                    action: 'Check'
                 },
             ],
             circlecut_list: [
@@ -297,7 +296,6 @@ export default {
         }
     },
     components: {
-        // Layout,
         CircleCut
     },
     mounted: function() {
@@ -337,7 +335,7 @@ export default {
                 },
                 series: [
                     {
-                        name: '访问来源',
+                        name: 'Source of access',
                         type: 'pie',
                         radius: '70%',
                         center: ['35%', '50%'],
@@ -348,7 +346,7 @@ export default {
                         data: [
                             {
                                 value: 35,
-                                name: '车辆占位',
+                                name: 'Vehicle Occupancy',
                                 itemStyle: {
                                     color: '#64c4f7'
                                 },
@@ -359,7 +357,7 @@ export default {
                             },
                             {
                                 value: 65,
-                                name: '聚集',
+                                name: 'Gather',
                                 itemStyle: {
                                     color: '#f67467'
                                 },
@@ -379,7 +377,7 @@ export default {
             let categoryData = [];
             let chartdata = []
             for (let index = 0; index < 12; index++) {
-                categoryData.push(`${index + 1}月`)
+                categoryData.push(`${index + 1}`)
                 chartdata.push(Math.round(Math.random() * 420))
             }
             // let itemcolor = {
