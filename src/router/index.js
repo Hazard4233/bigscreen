@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+import Page1 from '../views/Page1.vue'
+import Page2 from '../views/Page2.vue'
+import Page3 from '../views/Page3.vue'
 import Page4 from '../views/Page4.vue'
 import Page5Part1 from '../views/Page5Part1.vue'
 import Page5Part2 from '../views/Page5Part2.vue'
@@ -14,6 +17,21 @@ import Page7Part4 from '../views/Page7Part4.vue'
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/page1',
+    name: 'Page1',
+    component: Page1
+  },
+  {
+    path: '/page2',
+    name: 'Page2',
+    component: Page2
+  },
+  {
+    path: '/page3',
+    name: 'Page3',
+    component: Page3
+  },
   
   {
     path: '/page4',
